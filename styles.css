@@ -1,0 +1,50 @@
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+/* En-tête */
+header {
+    background-color: #0057A3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+
+header .cta a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+header .btn-primary {
+    background-color: #56C596;
+}
+
+header .btn-secondary {
+    background-color: #004080;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Formulaire */
+form input, form select, form textarea, form button {
+    display: block;
+    margin: 10px auto;
+}
